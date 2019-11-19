@@ -22,3 +22,24 @@ export const Status = Loadable({
   loader: () => import('routes/Status'),
   loading: Loading,
 });
+
+//* RealIntro *//
+export const RealIntro = Loadable({
+  loader: () => import('routes/real/Intro'),
+  loading: Loading,
+});
+//* RealIntro *//
+export const RealTest = Loadable({
+  loader: () => import('routes/real/Test'),
+  loading: Loading,
+});
+//* RealIntro *//
+export const RealAnalysis = Loadable({
+  loader: () => import('routes/real/Analysis'),
+  loading: Loading,
+});
+//* RealIntro *//
+export const RealResult = Loadable({
+  loader: () => import('routes/real/Result'),
+  loading: Loading,
+});
